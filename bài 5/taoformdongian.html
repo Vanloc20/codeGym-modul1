@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>tạo form đơn giản</title>
+	<link rel="stylesheet" href="">
+
+<style>
+	
+	.form1{
+		width: 600px;
+		height: 300px;
+		background: #DDFDFF;
+		margin: 0 auto;
+	}
+	h1{
+		background-color:Tomato;
+		text-align: center;
+		color: white;
+
+	}
+
+	 #we {
+		margin-left: 50px;
+		margin-top: 5px;
+		width: 300px;
+		height: 25px;
+		 border-radius: 1px;
+	}
+	#wu{
+		margin-left: 73px;
+		margin-top: 5px;
+		width: 200px;
+		height: 25px;
+		 border-radius: 1px;
+
+	}
+
+	
+	label{
+		margin-left: 10px;
+	}
+	 
+	 #wy{
+	 	margin-left: 10px;
+	 	padding-right: 20px;
+
+
+	 	
+	 	
+	 }
+
+	 #wa
+	 {
+	 	margin-left: 100px;
+	 }
+
+
+	.form2{
+        width: 700px;
+		height: 500px;
+		background: #FFFCB2;
+		margin: 0 auto;
+	}
+
+	h2{
+		
+		background-color: #DCFBD9;
+		color: blue;
+		margin: 0  auto;
+		width: 690px;
+	
+}
+ #s2{
+
+
+ 	margin-left: 70px;
+ 	width: 200px;
+ 	height: 20px;
+ 	margin-top: 3px;
+
+ }
+#s3{
+	margin-left: 68px;
+ 	width: 200px;
+ 	height: 20px;
+ 	margin-top: 3px;
+}
+
+#s4{
+	margin-left:  58px;
+}
+#s5{
+    margin-left: 85px;
+ 	width: 200px;
+ 	height: 80px;
+ 	margin-top: 3px;
+}
+#s6{
+margin-left: 105px;
+height: 20px;
+
+}
+#s7{
+	margin-left: 95px;
+ 	width: 200px;
+ 	height: 20px;
+ 	margin-top: 3px;
+}
+
+#s8{
+	margin-left: 60px;
+ 	width: 200px;
+ 	height: 20px;
+ 	margin-top: 3px;
+}
+#s9{
+	margin-left: 150px;
+	height: 35px;
+}
+
+</style>
+
+</head>
+
+<body>
+	<div class="form1">
+		<h1>SỞ THÍCH CỦA BẠN</h1>
+			<form >
+				  <label for="name">Họ và tên </label>
+				  <input id="we" type="text" id="name" name="name" placeholder="Youname">
+				  <br>
+				  <label for="lname">Email </label>
+				  <input  id="wu" type="text " id="email" name="email" placeholder="Email">
+			</form>
+
+			<form id="wy"  action="#">
+				 <p>Sở thích</p>
+
+				<label for="#">  <input  type="checkbox" name="hobby" value="#">Thể Thao</label>
+				<label for="#">  <input  type="checkbox" name="hobby" value="#">Âm Nhạc</label>
+				<label for="#">  <input  type="checkbox" name="hobby" value="#">Đọc Sách</label><br>
+				<label for="#">  <input  type="checkbox" name="hobby" value="#">Lướt Web </label>
+				<label for="#">  <input  type="checkbox" name="hobby" value="#">Chơi Game </label>
+				<label for="#">  <input  type="checkbox" name="hobby" value="#">Điện Ảnh</label><br>
+				<label for="#">  <input  type="checkbox" name="hobby" value="#">Du Lịch </label>
+
+
+			</form>
+
+			<form id="wa" action="#">
+				<input type="submit" value="Gửi Thông Tin">
+				<input type="reset" value="Nhập Lại"/>
+			</form>
+
+
+	</div>
+<hr>
+<!---------------------------bài 1----------->
+
+<div class="form2">
+	<h2>ĐĂNG KÝ HỌC VIÊN </h2>
+<br>
+	<form action="#">
+		<label for="#">Họ Và Tên<input id="s2" type="text"name="name" value=""> </label>
+	</form>
+	<form action="#">
+		<label for="#">Ngày Sinh <input id="s3" type="text"name="brithday" value=""> </label>
+	</form>
+<br>	
+	<form action="#">
+		 <label for="">Giới Tính </label>
+		 <label for=""><input id="s4" type="radio" name="Gender" value="men">Nam</label>
+		 <label for=""><input id="s4" type="radio" name="Gender" value="male">Nữ </label>
+	</form>
+<br>
+
+	<form action="#">
+	<label for="#"> Địa Chỉ </label><input id="s5" type="text" name="address" value="">
+	
+	</form>
+<br>
+
+	<form action="#">
+		<label> Lớp</label>
+		<select id="s6" name="#">
+			<option value="">-Chọn Lớp-</option>
+			<option value="">PHP </option>
+			<option value="">JAVA</option>
+			<option value="">PYTHON </option>
+			<option value="">C++</option>
+			
+		</select>
+	</form>	
+<br>
+
+	<form action="">
+		<label> Email </label>
+		<input id="s7" type="text"name="Email"value="">
+	</form>
+<br>
+	<form action="">
+		<label> Điện Thoại </label>
+		<input  id="s8" type="text"name="Email"value="">
+	</form>	
+<br>
+<form id="s9" action="#">
+				<input type="submit" value="Đăng Ký ">
+				<input type="reset" value="Nhập Lại"/>
+			</form>
+</div>
+
+
+
+</body>
+</html>
