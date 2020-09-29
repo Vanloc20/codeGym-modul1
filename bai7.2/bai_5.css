@@ -1,0 +1,36 @@
+body{
+	margin: 0 auto;
+	padding: 0 ;
+}
+
+.container{
+	width: 600px;
+	height: 600px;
+	background: pink;
+	margin: 0 auto;
+}
+h1{
+padding-top: 20px;
+	text-align: center;
+	color: blue;
+
+}
+
+input{
+	width: 200px;
+	height: 30px;
+	margin-left: 60px;
+	border-radius: 1px;
+}
+button{
+	background:#6EF3FD;
+	width: auto;
+	height: 30px;
+	border-radius: 1px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+p{
+	font-size: 40px;
+	color: #2C3136;
+}

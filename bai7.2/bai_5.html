@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ứng dụng máy tính</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="bai_5.css">
+</head>
+<body>
+	<div class="container">
+	<h1> Ứng dụng máy tính </h1>
+	<form action="#">
+		<input type="number" name="number" id="table1" placeholder="nhập dữ liệu">
+		<input type="number" name="number" id="table2" placeholder="nhập dữ liệu"> 
+		<br>
+		<br>
+
+		<button type="button" onclick="calculator('+')"><i>Addition(+)</i></button>
+		<button type="button" onclick="calculator('-')"><i>subtraction(-)</i></button>
+		<button type="button" onclick="calculator('*')"><i>Multipcation(x)</i></button>
+		<button type="button" onclick="calculator('/')"><i>Division(/)</i></button>
+	</form>
+	<p> kết quả là: <span id="ketqua"></span></p>
+	</div>
+</body>
+<script src="bai_5.js"></script>
+</html>
