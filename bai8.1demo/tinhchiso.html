@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tính chỉ số cân nặng của cơ thể</title>
+	<link rel="stylesheet" href="">
+	<style>
+		.container{
+			width: 500px;
+			height: 500px;
+			margin: 0 auto;
+			background: pink;
+		}
+		h1, form{
+			text-align: center; 
+			color: blue;
+			margin-top: 30px;
+			padding-top: 20px;
+
+		}
+		input{
+			width: 170px;
+			height: 40px;
+			border: none;
+			 border-radius: 5px;
+		}
+		button{
+			width: 100px;
+			height: 30px;
+			background: #A2F58E;
+			border-radius: 8px;
+			border-color: blue;
+
+		}
+
+		input#table1::after {
+			content:  'kg';
+			color:  grey;
+		}	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1> Tính chỉ số cân nặng của cơ thể </h1>
+		<form action="#">
+			<input type="text" name="number" id="table1" placeholder="cân nặng (kg)">
+			<input type="number" name="number" id="table2" placeholder="chiều cao (cm)"> 
+			<br>
+			<br>
+
+			<button type="button" onclick="chiSoCothe()"><i>Bấm Để Xem</i></button>
+			<button onclick="reSet()">reset</button>
+		</form>
+
+		<h4>Tình trạng cơ thể của bạn là : <span id="ketqua"></span></h4>
+
+
+	</div>
+
+</body>
+<script src="tinhchiso.js"></script>
+</html>
