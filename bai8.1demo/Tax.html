@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tính thuế thu nhập cá nhân</title>
+	<link rel="stylesheet" href="">
+	<style>
+		.tax{
+			width: 600px;
+			height: 600px;
+			margin: 10px auto;
+			background: #829B2F;
+		}
+		h1{
+			text-align: center;
+			color:#ECE7A7;
+			padding-top: 20px;
+		}
+
+		form{
+			text-align: center;
+		}
+		input{
+			width: 200px;height: 30px;
+			border-radius: 5px;
+		}
+		button{
+			width: 80px;
+			height: 30px;
+			background: #1D559F;
+			border-radius: 12px;
+			color: white;
+		}
+
+		h3{
+			color: #263369;
+
+			margin-left: 50px;
+		}
+		span{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="tax">
+	<h1> BẢNG TÍNH THUẾ THU NHẬP </h1>
+	<form action="#">
+			<input type="text" name="tax" id="taxNumber" placeholder="Nhập lương (tr)">
+			
+			
+
+			<button type="button" onclick="tinhThue()"><i>Tiền Thuế</i></button>
+		</form>
+
+		<h3>Thuế Cần Phải nộp: <span id="ketQua"></span></h3>
+	 
+	 </div>
+</body>
+<script src="Tex.js"></script>
+
+</html>
